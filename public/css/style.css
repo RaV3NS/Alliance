@@ -1,0 +1,39 @@
+#nav {
+    min-height: 80px;
+}
+
+#navbarMenu {
+    margin-left: auto;
+    margin-right: 4rem;
+    width: fit-content;
+}
+
+.navbar-brand {
+    margin-left: 4rem;
+}
+
+.page-content {
+    margin-top: 2rem;
+}
+
+.page-content .autocomplete-input {
+    background-image: none;
+    padding: 12px 12px 12px 20px;
+}
+
+.pairs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-content .exchange-block {
+    padding: 2rem;
+}
