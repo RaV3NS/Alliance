@@ -14,9 +14,6 @@ import moment from 'moment';
 import VueToast from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-sugar.css';
 
-import DataTable from 'laravel-vue-datatable';
-Vue.use(DataTable);
-
 Vue.use(VueToast, {
     position: 'top-right',
     duration: 5000
